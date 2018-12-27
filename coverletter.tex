@@ -1,0 +1,107 @@
+%!TEX TS-program = xelatex
+%!TEX encoding = UTF-8 Unicode
+% Awesome CV LaTeX Template
+%
+% This template has been downloaded from:
+% https://github.com/posquit0/Awesome-CV
+%
+% Authors:
+% Claud D. Park <posquit0.bj@gmail.com>
+% Lars Richter <mail@ayeks.de>
+%
+% Template license:
+% CC BY-SA 4.0 (https://creativecommons.org/licenses/by-sa/4.0/)
+%
+
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+%     Configuration
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+%%% Themes: Awesome-CV
+\documentclass[12pt, a4paper]{awesome-cv}
+
+%%% Override a directory location for fonts(default: 'fonts/')
+\fontdir[fonts/]
+
+%%% Configure a directory location for sections
+\newcommand*{\sectiondir}{cv/}
+
+%%% Override color
+% Awesome Colors: awesome-emerald, awesome-skyblue, awesome-red, awesome-pink, awesome-orange
+%                 awesome-nephritis, awesome-concrete, awesome-darknight
+%% Color for highlight
+% Define your custom color if you don't like awesome colors
+\colorlet{awesome}{black}
+%\definecolor{awesome}{HTML}{CA63A8}
+%% Colors for text
+\definecolor{darktext}{HTML}{000000}
+\definecolor{text}{HTML}{000000}
+\definecolor{graytext}{HTML}{000000}
+\definecolor{lighttext}{HTML}{000000}
+
+%%% Override a separator for social informations in header(default: ' | ')
+%\headersocialsep[\quad\textbar\quad]
+
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+%     Personal Data
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+%%% Essentials
+% \name{}{Jason Paladini}
+% \address{93 Glenbrook Rd, Apt 213, Stamford, CT 06902}
+% \mobile{(631) 672-2062} 
+% %%% Social
+% \email{jason@jpaladini.com}
+% \homepage{http://www.jpaladini.com}
+% \linkedin{jason-paladini}
+%%% Optionals
+%\position{Logistics{\enskip\cdotp\enskip}Inventory Control{\enskip\cdotp\enskip}Informatics}
+%\quote{``Make the change that you want to see in the world."}
+
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+%     Letter Data (Cover Letter)
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+\recipient
+  {Jason Paladini}
+  {Personal Statement\\University of Miami\\Masters in Health Informatics Program}
+\letterdate{\today}
+\lettertitle{}
+\letteropening{}
+\letterclosing{Sincerely,}
+\letterenclosure[Attached]{Resumé}
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+%     Content
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+%%% Make a footer for CV with three arguments(<left>, <center>, <right>)
+\makecvfooter
+  {\today}
+  {Jason Paladini}
+  {Personal Statement}
+
+\linespread{1.3}
+
+\begin{document}
+%%% Make a header for CV using personal data
+%\makecvheader
+
+%%% Make a title for Cover Letter using letter data
+\makelettertitle
+
+%%% Write content for your cover letter
+\begin{cvletter}
+
+I have always been very interested in health, technology, and business. These three interests of mine have been difficult to reconcile along with my career aspirations, due to how obviously different they are. I had always assumed that I would find myself working in a field that related to only one or, at most, two of these topics. However, with the development of the multidisciplinary field of health informatics, and the current state of healthcare reform, I am excited for myself, the industry, and the people who will benefit from more efficient healthcare delivery and a higher quality of service. 
+
+I have been passionate about technology since I was young because I grew up alongside the internet and its associated technologies. I wrote my first simple programs in Visual Basic when I was 13 years old in 1998, and I haven’t stopped since then. My interest in medicine and healthcare stems from my experiences in the United States Marine Corps. As a member of a team who was responsible for the aircraft involved in casualty evacuation, I was able to gain intimate experience with doctors, nurses/corpsman, and the patients themselves. Spending time with these people motivated me to become more involved with the field of healthcare once I reached the end of my service contract. To that end, I chose to major in Biology, with a concentration in Quantitative Biology and Bioinformatics, at Stony Brook University. I chose this concentration, again, because it intersected with my interests quite well. I thoroughly enjoyed any course that integrated Math, Statistics, and Biology. Throughout my time as an undergraduate, I enjoyed taking part in research of all kinds. I was honored to engage in chemistry research at the University of Texas, and in Genomics and Bioinformatics research at my own college. These varied experiences only deepened my interests for math and science, and have helped improve my technical skills. Over the years, I have taught myself multiple programming and scripting languages including C, Matlab, R, and Python. These have all been beneficial to me both in school and in the freelance work I do online with things like data munging, cleaning, and web design. I would like to be able to apply these technical skills to the healthcare industry in whatever way I can. I especially would love to become involved with helping veterans by improving their access to healthcare in some way, as the current state of VA healthcare is, in my opinion, lacking in efficiency.
+
+I believe I would be a great fit for your program because I am genuinely interested and excited to learn about this expanding field. It is a rare thing to find a program that meshes so neatly with my interests and career aspirations. If accepted, you will find that my diligence, attention to detail, and already established technical skills would not only make me a great student, but a great representative of your esteemed institution in the future.
+
+
+\end{cvletter}
+
+%%% Make a closing for Cover Letter using letter data
+%\makeletterclosing
+
+\end{document}
